@@ -14,7 +14,7 @@
  })
 
  export class StudentAddComponent implements OnInit {
- 	private studentAddForm : FormGroup;
+ 	public studentAddForm : FormGroup;
  	index:any;
 
  	constructor(private formBuilder: FormBuilder,private router: Router, private route: ActivatedRoute, private studentService:StudentService,private toastr: ToastrService) { 

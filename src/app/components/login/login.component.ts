@@ -12,7 +12,7 @@ import { routerTransition } from '../../services/config/config.service';
 	styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-	private loginForm : FormGroup;
+	public loginForm : FormGroup;
 	constructor(private formBuilder: FormBuilder,private router: Router, private userService:UserService,private toastr: ToastrService) { 
 		this.loginForm = this.formBuilder.group({
 			email: ['',  [Validators.required, ValidationService.emailValidator]],
