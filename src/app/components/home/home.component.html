@@ -1,0 +1,12 @@
+
+<nav id="mySidebar">
+	<a  [ngClass]="{'w3-teal': (active == '/')}" routerLink="/"> User List</a>
+	<a  routerLink="/add"  [ngClass]="{'w3-teal': (active == '/add')}">Add new user</a>
+	<a  (click)="logOut()">Logout</a>
+</nav>
+
+<div>
+	<div>
+		<router-outlet></router-outlet>
+	</div>
+</div>

@@ -1,0 +1,28 @@
+
+<div *ngIf="studentDetail">
+	<div>
+		<h3>Student Details <button [routerLink]="['/update', index]">Edit</button> <button routerLink="/" > Back</button></h3>
+	</div>
+	<div><br>
+		<h3>{{studentDetail.first_name}} {{studentDetail.last_name}}</h3>
+		<hr>
+		<table>
+			<tr>
+				<td>First Name</td>
+				<td>: <b>{{studentDetail.first_name}}</b></td>
+			</tr>
+			<tr>
+				<td>Last name</td>
+				<td>: <b>{{studentDetail.last_name}}</b></td>
+			</tr>
+			<tr>
+				<td>Email Address</td>
+				<td>: <b>{{studentDetail.email}}</b></td>
+			</tr>
+			<tr>
+				<td>Phone</td>
+				<td>: <b>{{studentDetail.phone}}</b></td>
+			</tr>
+		</table>
+	</div>
+</div>
