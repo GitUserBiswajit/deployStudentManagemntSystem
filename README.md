@@ -26,3 +26,9 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+
+
+Take the Pull of this Code and post extraction, run npm install and then npm start or you can run ng serve and post that open your browser and run localhost:4200 
+Post that take the credentials from new text document file and login.
+
