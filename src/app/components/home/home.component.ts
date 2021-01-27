@@ -11,8 +11,7 @@
  @Component({
  	selector: 'app-home',
  	templateUrl: './home.component.html',
- 	styleUrls: ['./home.component.css'],
- 	animations: [routerTransition()]
+ 	styleUrls: ['./home.component.css']
  })
 
 

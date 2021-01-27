@@ -10,9 +10,7 @@
  @Component({
  	selector: 'app-student-add',
  	templateUrl: './student-add.component.html',
- 	styleUrls: ['./student-add.component.css'],
- 	animations: [routerTransition()],
- 	host: {'[@routerTransition]': ''}
+ 	styleUrls: ['./student-add.component.css']
  })
 
  export class StudentAddComponent implements OnInit {

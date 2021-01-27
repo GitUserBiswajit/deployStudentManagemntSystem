@@ -9,9 +9,7 @@ import { routerTransition } from '../../services/config/config.service';
 @Component({
 	selector: 'app-login',
 	templateUrl: './login.component.html',
-	styleUrls: ['./login.component.css'],
-	animations: [routerTransition()],
-	host: {'[@routerTransition]': ''}
+	styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
 	private loginForm : FormGroup;
